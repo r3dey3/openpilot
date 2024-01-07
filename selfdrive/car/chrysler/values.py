@@ -71,6 +71,7 @@ CAR_INFO: Dict[str, Optional[Union[ChryslerCarInfo, List[ChryslerCarInfo]]]] = {
   CAR.PACIFICA_2020: [
     ChryslerCarInfo("Chrysler Pacifica 2019-20"),
     ChryslerCarInfo("Chrysler Pacifica 2021", package="All"),
+    ChryslerCarInfo("Chrysler Pacifica 2023", package="Limited"),
   ],
   CAR.JEEP_GRAND_CHEROKEE: ChryslerCarInfo("Jeep Grand Cherokee 2016-18", video_link="https://www.youtube.com/watch?v=eLR9o2JkuRk"),
   CAR.JEEP_GRAND_CHEROKEE_2019: ChryslerCarInfo("Jeep Grand Cherokee 2019-21", video_link="https://www.youtube.com/watch?v=jBe4lWnRSu4"),
